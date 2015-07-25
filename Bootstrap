@@ -1,0 +1,37 @@
+@@ -0,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div cdlass="container">
+  <img class="img-responsive" src="ccd.jpg" alt="Coffee" width="300" height="300">
+  <h1>DRINKS</h1>    
+  <p></p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- cold coffee</dd>
+    <dt>Milk</dt>
+    <dd>- chocolate milk</dd>
+  </dl>     
+</div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Know More About me <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="Edu.html">Education</a></li>
+      <li><a href="Ad.html">Address</a></li>
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>
